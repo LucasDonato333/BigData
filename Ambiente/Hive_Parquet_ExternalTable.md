@@ -7,7 +7,7 @@ Nesse tutorial iremos utilizar um script Pyspark para coletar dados de uma tabel
 
 ![](https://github.com/LucasDonato333/BigData/blob/master/Ambiente/PIPELINE-HIVE-PARQUET.png)
 
-- 1º Criando a tabela no Hive.
+Criando a tabela no Hive.
 
 Inicie o Hive e crie a tabela como o exemplo abaixo.
 ```sql
