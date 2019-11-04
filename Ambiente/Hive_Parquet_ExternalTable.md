@@ -3,7 +3,9 @@
 <h4> Tabela Externa com arquivo Parquet </h4>
 </center>
 
-Neste tutorial iremos aprender como criar uma tabela externa (Hive) no S3, utilizando Spark (PySpark), fazendo com que o Hive leia os dados por um arquivo parquet (salvo em um bucket do S3).
+Nesse tutorial iremos utilizar um script Pyspark para coletar dados de uma tabela Oracle. Iremos transformar os dados totais dessa tabela em um dataframe, e apartir disso criaremos um arquivo Parquet, que será jogado em um Bucket no S3. Para finalizar, iremos criar uma tabela externa no Hive, que será populada com esse arquivo Parquet. Dessa forma não precisaremos inserir dados na tabela, fazendo com que o hive consuma dados automaticamente do arquivo no Bucket do S3.
+
+![](https://github.com/LucasDonato333/BigData/blob/master/Ambiente/PIPELINE-HIVE-PARQUET.png)
 
 - 1º Criando a tabela no Hive.
 
