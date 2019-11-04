@@ -21,7 +21,8 @@ pyspark --conf spark.executor.extraClassPath=/usr/share/java/ojdbc8.jar:/usr/sha
 ```
 No exemplo a cima estamos iniciando o Spark, passando alguns parametros de inicialização, como ClassPath e alguns JDBC's para buscar uma tabelas ja existentes por exemplo. 
 Obs 1: A conexão vai variar de banco pra banco.
-Obs 2: O parametro  ```--conf "spark.sql.parquet.writeLegacyFormat=true"``` foi adcionado para evitar um erro na leitura do parquet. Existe uma diferença em relação a gravação, veja em mais ![](https://stackoverflow.com/questions/37829334/parquet-io-parquetdecodingexception-can-not-read-value-at-0-in-block-1-in-file)
+Obs 2: O parametro  ```--conf "spark.sql.parquet.writeLegacyFormat=true"``` foi adcionado para evitar um erro na leitura do parquet. Existe uma diferença em relação a gravação, veja mais em:
+[Stack Overflow](https://stackoverflow.com/questions/37829334/parquet-io-parquetdecodingexception-can-not-read-value-at-0-in-block-1-in-file)
 
 Depois de iniciado, agora iremos executar o código para a cópia de uma tabela, e gravação de um arquivo parquet.
 
