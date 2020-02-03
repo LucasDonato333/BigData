@@ -5,22 +5,30 @@
 
 <h2> Instalação</h2>
 <hr>
+
 **Instalando PIP**
+
 ```python
 sudo apt-get install python-pip
 ```
 <hr>
+
 **Atualização do PIP**
+
 ```python
 sudo pip install --upgrade pip
 ```
 <hr>
+
 **Instalação do Banco Postgre**
+
 ```python
 sudo apt-get install postgresql postgresql-contrib
 ```
 <hr>
+
 **Criação de um novo usuário para o Airflow**
+
 ```python
 sudo adduser airflow
 ```
